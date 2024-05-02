@@ -50,9 +50,9 @@ We can see this by logging the function calls and the return values:
 
 ```js
 function sumUpTo(n) {
-  if (n === 1) {
+  if (n === 1 || n === 0) {
     console.log(`sumUpTo(${n}) returns 1`);
-    return 1;
+    return n;
   }
 
   console.log(`sumUpTo(${n}) calls sumUpTo(${n - 1}) + ${n}`);
