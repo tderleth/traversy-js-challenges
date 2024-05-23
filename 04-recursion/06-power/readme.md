@@ -1,4 +1,4 @@
-# Power
+# Challenge: Power
 
 ## Instructions
 
